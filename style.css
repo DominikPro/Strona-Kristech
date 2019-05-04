@@ -1,0 +1,136 @@
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(58, 155, 207, 0.212);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #405985;
+}
+
+.selector-for-some-widget {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.LogoCss {
+  background: -webkit-gradient(linear, left top, right top, from(#373b44), to(#4286f4));
+  background: linear-gradient(to right, #373b44, #4286f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  /* animation-iteration-count: infinite; */
+}
+
+/* Animation on home page */
+.ButtonCss {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+  /* animation-iteration-count: infinite; */
+}
+
+/* Animation on next page */
+.ButtonCssPodstrona {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.footerCss {
+  color: #cfcaca;
+}
+
+.btnCss {
+  font-size: 1.8rem;
+}
+
+.podstronaAnimacja {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+/* podstrona kontakt grafiki font awesom */
+.GrafKontaktCss {
+  font-size: 4rem;
+  background: -webkit-gradient(linear, left top, right top, from(#373b44), to(#4286f4));
+  background: linear-gradient(to right, #373b44, #4286f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.kontatkCss {
+  font-size: 1.5rem;
+  background: -webkit-gradient(linear, left top, right top, from(#373b44), to(#4286f4));
+  background: linear-gradient(to right, #373b44, #4286f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.breadsCss {
+  background-color: white;
+  font-size: 0.9rem;
+}
+
+.btnCssCard {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+.btnCssCard:hover {
+  background-position: right center;
+}
+
+.btnCssCard1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#373b44), color-stop(51%, #4286f4), to(#373b44));
+  background-image: linear-gradient(to right, #373b44 0%, #4286f4 51%, #373b44 100%);
+}
+
+.logoHovAni {
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+.logoHovAni:hover {
+  background-position: right center;
+}
+
+.logoHovAni1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#373b44), color-stop(51%, #4286f4), to(#373b44));
+  background-image: linear-gradient(to right, #373b44 0%, #4286f4 51%, #373b44 100%);
+}
+/*# sourceMappingURL=style.css.map */
