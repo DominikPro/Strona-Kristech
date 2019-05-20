@@ -16,12 +16,13 @@ $breadCssFontSize: 0.9rem;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: #eeeeee;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgba(58, 155, 207, 0.212);
+  border-radius: 4px;
 }
 
 /* Handle on hover */
@@ -108,12 +109,10 @@ $breadCssFontSize: 0.9rem;
 }
 
 .btnCssCard1 {
-  background-image: linear-gradient(
-    to right,
-    $kolorlogo1 0%,
-    $kolorlogo2 51%,
-    $kolorlogo1 100%
-  );
+  background-image: linear-gradient(to right,
+      $kolorlogo1 0%,
+      $kolorlogo2 51%,
+      $kolorlogo1 100%);
 }
 
 .logoHovAni {
@@ -130,10 +129,12 @@ $breadCssFontSize: 0.9rem;
 }
 
 .logoHovAni1 {
-  background-image: linear-gradient(
-    to right,
-    $kolorlogo1 0%,
-    $kolorlogo2 51%,
-    $kolorlogo1 100%
-  );
+  background-image: linear-gradient(to right,
+      $kolorlogo1 0%,
+      $kolorlogo2 51%,
+      $kolorlogo1 100%);
+}
+
+.cssProficz {
+  text-decoration: none;
 }
